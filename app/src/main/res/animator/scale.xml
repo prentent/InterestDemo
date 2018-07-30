@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:valueFrom="1"
+    android:valueTo="0"
+    android:valueType="floatType"
+    android:propertyName="alpha"/>
+
+ <!--   android:ordering：指定动画的播放顺序：sequentially(顺序执行)，together(同时执行)
+        android:duration：动画的持续时间
+        android:propertyName="x"：这里的x，还记得上面的"alpha"吗？加载动画的那个对象里需要 定义getx和setx的方法，objectAnimator就是通过这里来修改对象里的值的！
+        android:valueFrom="1" ：动画起始的初始值
+        android:valueTo="0" ：动画结束的最终值
+        android:valueType="floatType"：变化值的数据类型-->

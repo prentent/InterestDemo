@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+
+    <!-- notice:
+
+    fillAfter="true" 表示： 当动画结束的时候，是否保持当前的状态。
+            true ， 表示，结束的时候是什么样子，就是什么样子。
+    fillBefore＝"true" 默认就是这个。
+
+    -->
+
+<!--     repeatCount: 重复的次数。如果是1 ，
+        表示要运行两次。 如果是infinite 表示，永远重复（死循环）。
+         repeatMode: 重复的模式。reverse(反转)  、 restart(重新开始)
+         startOffset="" 开始的偏移量，就是延时启动动画。
+
+         fromXDelta: x 开始的位置
+         fromYDelta: y 开始的位置
+         toYDelta： y 结束的位置
+         toXDelta: x 结束的位置-->
+
+    <translate
+        android:duration="2000"
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        android:startOffset="100"
+        android:toXDelta="300%"
+        android:toYDelta="200" />
+
+</set>
